@@ -743,8 +743,6 @@ main {
     list-style: none; /* Remove default bullet styling, if necessary */
   }
 
-  
-
 .clients-item {
   min-width: 25%;
   scroll-snap-align: start;
@@ -1262,9 +1260,6 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 450px screen
  */
 
-
- 
-
 @media (min-width: 350px) {
 
   /**
@@ -1598,7 +1593,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .has-scrollbar::-webkit-scrollbar-button { width: 100px; }
 
   .clients-list {
-    grid-template-columns: repeat(3, 1fr); /* 4 columns */
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
     gap: 50px;
     padding: 50px;
   }
